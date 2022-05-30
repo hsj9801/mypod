@@ -40,7 +40,7 @@
 		1896E43DC33C6DEE670E85B4 /* Pods_mypod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mypod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2775D5487B546B8C88524286 /* Pods_mypod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mypod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B9267C158861779AA6E734 /* Pods-mypod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypod_Tests.release.xcconfig"; path = "Target Support Files/Pods-mypod_Tests/Pods-mypod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		56D310CD1C4D0181B5D53EFB /* mypod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = mypod.podspec; path = ../mypod.podspec; sourceTree = "<group>"; };
+		56D310CD1C4D0181B5D53EFB /* mypod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = mypod.podspec; path = ../mypod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* mypod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mypod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728DB2E6A8FB663736F1FC86 /* Pods-mypod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-mypod_Tests/Pods-mypod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B5AD6F93974BB0EA209038C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B5AD6F93974BB0EA209038C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F254DF1CBA86FBE0BEA80601 /* Pods-mypod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypod_Example.release.xcconfig"; path = "Target Support Files/Pods-mypod_Example/Pods-mypod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F28350113120FB1A3F1ED081 /* Pods-mypod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mypod_Example.debug.xcconfig"; path = "Target Support Files/Pods-mypod_Example/Pods-mypod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FD498FB4DE4AB288605DB20E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD498FB4DE4AB288605DB20E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				728DB2E6A8FB663736F1FC86 /* Pods-mypod_Tests.debug.xcconfig */,
 				36B9267C158861779AA6E734 /* Pods-mypod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
