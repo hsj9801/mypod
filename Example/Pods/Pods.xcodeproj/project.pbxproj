@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1487FCC4575CE90018944F4B4F554F1F /* Pods-mypod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A26FFDF7A15766180F5F09A10844D3C /* Pods-mypod_Example-dummy.m */; };
-		2B82D7F52844A5B3008788F4 /* myHeadFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B82D7F42844A5B3008788F4 /* myHeadFile.h */; };
+		2B82D7F72844A88A008788F4 /* myHeadFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B82D7F62844A88A008788F4 /* myHeadFile.h */; };
 		386790D0895413690B660BC84193C2F8 /* myHeadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 266388A9E73C62C2FD8F593794E55143 /* myHeadFile.m */; };
 		4E9E1FF3A1179C95BEE1613F0394F924 /* Pods-mypod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA936A06F0E29A7F29C0085AE1C24932 /* Pods-mypod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		518B5281472B78740EDA077A7E329651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -43,7 +43,7 @@
 		264F286A46DDE56A4035FDCF87363DF9 /* Pods-mypod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mypod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		266388A9E73C62C2FD8F593794E55143 /* myHeadFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = myHeadFile.m; path = mypod/Classes/myHeadFile.m; sourceTree = "<group>"; };
 		294521AAC3E05A731B6ED1AE083C4DDF /* Pods-mypod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mypod_Tests-Info.plist"; sourceTree = "<group>"; };
-		2B82D7F42844A5B3008788F4 /* myHeadFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myHeadFile.h; sourceTree = "<group>"; };
+		2B82D7F62844A88A008788F4 /* myHeadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myHeadFile.h; path = mypod/Classes/myHeadFile.h; sourceTree = "<group>"; };
 		2D59D48EF4A71C1ADD8E3D75F10E492E /* Pods-mypod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mypod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3B0BA598D98C051F112DAF5407BCFD2A /* Pods-mypod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mypod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3CD9C63E6834DCDE34AB0604656D17DF /* Pods-mypod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mypod_Example-Info.plist"; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				266388A9E73C62C2FD8F593794E55143 /* myHeadFile.m */,
-				2B82D7F42844A5B3008788F4 /* myHeadFile.h */,
+				2B82D7F62844A88A008788F4 /* myHeadFile.h */,
 				FD1DFD03B98F88C54972E507F901B5F5 /* Pod */,
 				33DB540CBA8923DC53782429E8794DD5 /* Support Files */,
 			);
@@ -249,8 +249,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B82D7F72844A88A008788F4 /* myHeadFile.h in Headers */,
 				B7FEDE6E7B4B12ED1E7D4BF5A291F23D /* mypod-umbrella.h in Headers */,
-				2B82D7F52844A5B3008788F4 /* myHeadFile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
