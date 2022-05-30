@@ -7,4 +7,6 @@
 
 @interface arithmetic : NSObject
 
+-(int) add:(int)a With:(int)b;
+
 @end
