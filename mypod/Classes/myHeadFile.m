@@ -1,8 +1,6 @@
 #import <Foundation/Foundation.h>
+#import "myHeadFile.h"
 
-@interface arithmetic : NSObject
-
-@end
 
 @implementation arithmetic
 
